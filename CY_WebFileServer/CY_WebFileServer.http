@@ -1,0 +1,6 @@
+@CY_WebFileServer_HostAddress = http://localhost:5031
+
+GET {{CY_WebFileServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

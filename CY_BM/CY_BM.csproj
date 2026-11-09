@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GProductDTO.cs" />
+    <Compile Remove="GuaranteeDTO.cs" />
+    <Compile Remove="InspectionFormDTO.cs" />
+    <Compile Remove="InspectionItemDTO.cs" />
+    <Compile Remove="MenuDTO - Copy %283%29.cs" />
+    <Compile Remove="TicketDTO.cs" />
+  </ItemGroup>
+
+</Project>

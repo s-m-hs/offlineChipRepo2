@@ -1,0 +1,24 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+POST https://localhost:7090/api/CyOrders/AddItemToBOM
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxOSIsInVuaXF1ZV9uYW1lIjoiYmVueWFtaW4iLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3MjM3MTU3OTAsImV4cCI6MTcyMzkzMTc5MCwiaWF0IjoxNzIzNzE1NzkwLCJpc3MiOiJZb3VyQVBJIiwiYXVkIjoiWW91ckFQSVVzZXJzIn0.uzYsfhtDsIuvej4LoJm8TV2SSkQE8OwAoKcE2ld4Y5g
+accept: */*
+Content-Type: application/json
+
+{
+  "partNumber": "string",
+  "manufacturer": "string",
+  "quantity": 10
+}
+
+###
+
+POST https://localhost:7090/api/CyOrders/AddItemToBOM
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIxOSIsInVuaXF1ZV9uYW1lIjoiYmVueWFtaW4iLCJyb2xlIjoiQ3VzdG9tZXIiLCJuYmYiOjE3MjM3MTU3OTAsImV4cCI6MTcyMzkzMTc5MCwiaWF0IjoxNzIzNzE1NzkwLCJpc3MiOiJZb3VyQVBJIiwiYXVkIjoiWW91ckFQSVVzZXJzIn0.uzYsfhtDsIuvej4LoJm8TV2SSkQE8OwAoKcE2ld4Y5g"
+accept: */*
+Content-Type: application/json
+
+{
+  "partNumber": "test 2",
+  "manufacturer": "test 2",
+  "quantity": 87
+}
